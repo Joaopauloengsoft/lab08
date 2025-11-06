@@ -1,4 +1,6 @@
 package FormasGeometricas;
 
-public class Forma {
+public abstract class Forma {
+    public abstract double calcularArea();
+    public abstract void desenhar();
 }
